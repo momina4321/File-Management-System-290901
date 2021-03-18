@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window3</class>
+ <widget class="QMainWindow" name="window3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>397</width>
+    <height>257</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>81</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="foldericon">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="foldername">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>397</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen_a_Folder"/>
+   </widget>
+   <widget class="QMenu" name="menuNew">
+    <property name="title">
+     <string>New</string>
+    </property>
+    <addaction name="actionCreae_File"/>
+    <addaction name="actionCreate_Folder"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuNew"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionback"/>
+   <addaction name="actionOpen_a_Folder"/>
+   <addaction name="actionCreae_File"/>
+   <addaction name="actionCreate_Folder"/>
+   <addaction name="actionDelete"/>
+  </widget>
+  <action name="actionOpen_a_Folder">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/rec/C:/Users/Dell/Downloads/Folder-Open-icon.png</normaloff>:/rec/C:/Users/Dell/Downloads/Folder-Open-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open a Folder</string>
+   </property>
+  </action>
+  <action name="actionCreae_File">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Dell/Downloads/add-file.png</normaloff>C:/Users/Dell/Downloads/add-file.png</iconset>
+   </property>
+   <property name="text">
+    <string>Creae File</string>
+   </property>
+  </action>
+  <action name="actionCreate_Folder">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Dell/Downloads/add.png</normaloff>C:/Users/Dell/Downloads/add.png</iconset>
+   </property>
+   <property name="text">
+    <string>Create Folder</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Dell/Downloads/kisspng-x-mark-check-mark-computer-icons-file-5b11026c460be0.0896490815278413882869.png</normaloff>C:/Users/Dell/Downloads/kisspng-x-mark-check-mark-computer-icons-file-5b11026c460be0.0896490815278413882869.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionback">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/Dell/Downloads/kisspng-computer-icons-clip-art-5adc80de0b64e9.9733979215244003500467.png</normaloff>C:/Users/Dell/Downloads/kisspng-computer-icons-clip-art-5adc80de0b64e9.9733979215244003500467.png</iconset>
+   </property>
+   <property name="text">
+    <string>back</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
